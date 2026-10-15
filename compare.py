@@ -36,8 +36,8 @@ with open("dataset.jsonl", encoding="utf-8") as f:
         if ai["category"] == email["expected"]:
             claude_ok = claude_ok + 1
 
-        print(email["id"], "| правильно:", email["expected"], "| слова:", kw, "| Claude:", ai["category"])
+        print(email["id"], "| expected:", email["expected"], "| keywords:", kw, "| Claude:", ai["category"])
 
 print()
-print("Ключевые слова:", keywords_ok, "из", total)
-print("Claude:", claude_ok, "из", total)
+print("Keywords:", keywords_ok, "/", total)
+print("Claude:", claude_ok, "/", total)

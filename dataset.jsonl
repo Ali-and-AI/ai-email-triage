@@ -8,3 +8,13 @@
 {"id": 8, "subject": "Invoice INV-2231", "body": "I think invoice INV-2231 charged us twice for the call-out fee.", "expected": "existing_customer"}
 {"id": 9, "subject": "Project enquiry", "body": "Hi, I would like a quote for your website. We can rebuild it for 499 pounds.", "expected": "sales_pitch"}
 {"id": 10, "subject": "Quick question", "body": "Can you install a new fuse box? Also we offer cheap leads for electricians.", "expected": "sales_pitch"}
+{"id": 11, "subject": "Partnership opportunity", "body": "We help electricians get 5-star Google reviews on autopilot. Can I send you a quick quote?", "expected": "sales_pitch"}
+{"id": 12, "subject": "Socket not working", "body": "Hello, one of the sockets in our kitchen stopped working after a storm. Could someone come and look this week?", "expected": "customer_enquiry"}
+{"id": 13, "subject": "Re: bathroom lights", "body": "The lights you fitted last month are flickering again. Can you pop back?", "expected": "existing_customer"}
+{"id": 14, "subject": "Price list update", "body": "Please note our cable and switch prices rise by 4% from November. Updated catalogue attached.", "expected": "supplier"}
+{"id": 15, "subject": "Urgent: payment failed", "body": "Your bank card was declined. Click here within 12 hours to keep your account active.", "expected": "spam"}
+{"id": 16, "subject": "Quick question", "body": "Do you have capacity for new projects? We install solar panels and are looking for electricians to partner with on commission.", "expected": "sales_pitch"}
+{"id": 17, "subject": "Rewire for rental flat", "body": "I own a rental flat in Bath and need an EICR certificate before new tenants move in. What would you charge?", "expected": "customer_enquiry"}
+{"id": 18, "subject": "Invoice question", "body": "Hi, we offer invoice financing so you get paid in 24 hours instead of 30 days. Interested?", "expected": "sales_pitch"}
+{"id": 19, "subject": "Delivery delayed", "body": "Sorry, your order of consumer units is delayed until Thursday due to stock issues.", "expected": "supplier"}
+{"id": 20, "subject": "Thank you", "body": "Just wanted to say thanks for the great job on our garage. Please send the final invoice when ready.", "expected": "existing_customer"}
